@@ -1,0 +1,67 @@
+Programação
+
+	Gameplay – dev que vai trabalhar com a programação das mecânicas do jogo; 
+	AI – Mostrar para o NPC por onde andar, o que fazer 
+	Network – Responsável pelo multiplayer dos jogos;
+	Ferramentas – responsável pela conversão de dados
+	GFX/Shaders – tech Art
+Arte Gráfica
+
+	Tech Art – pessoa responsável por fazer a parte bonita e técnica ao mesmo tempo
+	Arte 2D / 3D –
+	Animação – Animar itens, cenários da gameplay
+	Arte Conceitual – fazer conceitos para exemplificar, mostrar algo para a equipe, para daquilo tirar uma ideia.
+	UI / UX - UI – interface do usuário – botões, textos, HUD; UX – O que o usuário vai sentir, imersão do usuário no game
+
+Audio Design
+
+	Efeitos sonoros – criar os efeitos do jogo 
+	Trilhas sonoras – que podem ser autorais ou não 
+	Programação de áudio – conecta o áudio com a programação, mas deixa o áudio rico no projeto.
+
+
+
+
+
+
+Game Desing
+
+	Prototipagem – Criar um protótipo para testas alguma funcionalidade, ou alguma mecânica, antes de fazer a mecânica oficial
+	Arquitetura dos sistemas – Fazer limitações com a interação entre o usuário e o game
+	Idealização do jogo – Idealizar o jogo, fazer um protótipo, testar o jogo...
+	Balanceamento – Balancear economia no jogo, não deixar nem muito fácil, nem muito difícil.
+	UX – Decidir o que o jogador irá sentir nos cenários.
+	
+POR ONDE COMEÇAR?
+
+ESTUDAR – Sempre buscar novos conhecimentos na linguagem que tu utilizas, sempre buscar as novidades na indústria dos games, apenas estudar não basta, tem que praticar.
+	PORTIFÓLIO – Criar um portifólio do meu trabalho, tipos:
+		GITHUB – Para programadores
+		ARTSTATION – Para artistas
+		ITCH.IO – Para jogos finalizados
+		SITES PRÓPRIOS – Para portifólios profissionais
+		NOTION – Para portifólios flexíveis
+
+Dicas Para A Carreira
+
+	- Sempre ter um objetivo final
+
+
+
+
+PLANO DE APRENDIZADO
+		1º Passo – Definir um objetivo final (onde tu queres chegar daqui a 1 ano?)
+		2º Passo – Definir o passo-a-passo para chegar nesse objetivo final, envolve muito aprendizado
+		3º Passo – Inspirações e motivações. (Por que você quer fazer isso, o que te move para fazer isso, por que quero chegar lá)
+
+PUBLICAR JOGOS!
+
+Começar e terminar um projeto.
+	
+- Desenvolver protótipos – focar sempre em protótipos (pode ser códigos feios e artes feias, porém tenha um portifólio com código bonito)
+	- Finalizar projetos do começo ao fim
+	- Sempre manter o escopo pequeno – Pensar em uma mecânica apenas, fazer o simples.
+
+NETWORKING
+
+Conversar com pessoas que já estão na indústria.
