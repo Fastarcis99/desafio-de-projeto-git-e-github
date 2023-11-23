@@ -1,0 +1,87 @@
+VISÃO GERAL SOBRE O PROCESSO
+
+ETAPAS DE DESENVOLVIMENTO
+	1 – Idealização: idealizar como será meu jogo, começa a desenvolver como seria esse jogo.
+	2 – Protótipo: pegar uma ideia e testar, codar de qualquer jeito, arte feia, para somente testar e ver se irá funcionar e se a ideia é boa. Após isso quando escolher a ideia boa, delete tudo o que foi feito para ir para a próxima etapa.
+	3 – Fatia Vertical (Vertical Slice): Desenvolver uma “fatia” desse bolo, no caso do jogo, criar um fragmento do jogo, para poder mostrar, um tipo de protótipo bom, algo que prove que os passos anteriores são bons. 
+	4 – Início da Produção: Muitas vezes aqui vamos colocar tudo fora, e começar tudo de novo para não usar uma coisa feia. Aqui começa o desenvolvimento para valer do jogo, aqui são todas as etapas do jogo.
+	5 – Alpha (Feature Complete): Ter o esqueleto do jogo já pronto, “espinha dorsal”, jogo funciona, mas não precisa ter todo o conteúdo do jogo.
+	6 – Beta (Content Complete): Quando terminamos a versão Beta, temos todo o conteúdo do jogo completo, normalmente quando há atrasos em algumas das outras etapas, é nesta que economizamos tempo, pois podemos reduzir a quantidade de mapas, itens, e assim por diante.
+	7 – Versão Final: Polir o jogo, melhorar transições, ajustar descrição dos itens, trabalha na tradução do jogo em diversas linguagens.
+	8 – Lançamento: Termina de trabalhar nas integrações da plataforma que será o lançamento do jogo. Certificar que a versão final é válida para ser lançada em Consoles, PC... E assim por diante.
+
+
+
+ELEMENTOS BÁSICOS DE UM JOGO
+
+	Definir o tamanho das coisas, através de tiles (quadradinhos), área finita do cenário, deixar a criatura parada, com a animação de estar em movimento, movimentar o mundo em volta, e não a criatura, para facilitar cálculos de programação.
+	Base fixa e criar um mudo móvel, porém a base não se mexe.
+	UI – Pode ser criado uma árvore de habilidades, para melhorar o crafting, área de pesquisa para as coisas do jogo.
+	ABRIR UMA PLATAFORMA DE JOGOS, ESCOLHA UM JOGO ALEATÓRIO, ANALISE AS FOTOS E TRAILER DO JOGO, TENTANDO FAZER UMA ENGENHARIA REVERSA.
+	
+O QUE É GAME DESIGN?
+
+	Criar, arquitetar, bolar o jogo...
+	
+IDENTIDADE VISUAL EM JOGOS
+
+	Como a parte estética define como é o jogo, e como isso define o público alvo do jogo.
+	Vampire Survivors – Jogo é feio, mas é uma forma de chamar o jogador, pois o jogador vai falar que o jogo é feio, mas é bom, e então, chama outros jogadores para jogar.
+	Don’t Starve – Jogo 3D, com imagens 2D, câmera isométrica (vendo o mundo em uma diagonal).
+	Tunic – Jogo completamente 3D, com uma perspectiva isométrica, muito bonito, encantador, mágico.
+	Cult Of The Lamb – Perspectiva 3D, consegue ver o que está distante, arte 2D com motor 3D, direção de arte “suja” (mais rabiscos, mais detalhes), arte visual tem que acompanhar a ideia do jogo.
+	Forza Horizon 5 – Jogo extremamente realista. 
+	Starfield – Ultrarrealista no espaço sideral.
+	Ember Knights – Jogo de fantasia, pegada 3D, câmera top-down.
+	Dead Cells – Câmera mostra o mundo de lado (plataforma 2D), arte Suja, muita informação na tela, tem que estar sempre atento.
+	Dredge – Jogo de exploração com terror. Sai para pescar, porém quando anoitece aparece monstros. Jogo 3D, jogo mais clean, detalhes do fundo do mar.
+	Superhot – Arte simples, cenário branco, inimigos em vermelho. O jogo é baseado em como vencer os inimigos.
+
+
+
+
+
+
+
+
+
+
+PRINCIPAIS PLATAFORMAS E TECNOLOGIAS
+
+	Unity – engine mais utilizada
+	Unreal – segunda engine mais utilizada
+	Godot – terceira engine mais utilizada
+
+	A melhor engine é a que eu souber utilizar, no caso não existe uma engine melhor que a outra, o que existe, é a que eu sei melhor utilizar.
+	Independente da engine, vai acabar estudando elementos de criação de jogos, então, se tu sabes fazer um jogo em um, tu consegues fazer em outro, a única coisa é que tem que aprender a linguagem de programação, que é utilizada nessa engine.
+	O mais importante é fazer um jogo, começar um projeto do início ao fim.
+ 	
+
+
+
+
+
+
+
+
+
+LANÇAMENTO, DISTRIBUIÇÃO E ÉTICA
+
+	Onde publicar o jogo?
+		-Play Store (Google) – Celulares
+		-App Store (Apple) – Celulares
+		-Steam (Valve) – Windows, Mac, Linux
+		-Web (Kongregate, GameJolt, etc) – jogar online, sem precisar ser baixado
+		-Consoles (Xbox, Switch, etc) – 
+
+Direitos Autorais
+		Você pode usar comercialmente os assets do seu próprio jogo?
+			Não pode usar elementos de outros jogos, desenhos, animes, etc, para usar comercialmente as imagens, para monetizar o jogo, para usar de forma comercial.	
+	
+Inteligência Artificial
+		Você tem direito a usar comercialmente os dados com os quais a inteligência artificial foi treinada?
+			Pensar se a ferramenta utilizada, foi feita com assets que são públicos, pois muitas vezes foi treinada com o trabalho de alguém, e muitas vezes essa pessoa não escolheu se tem direito de uso ou não de usar o asset.
+
+	Considerações Éticas e Diversidade nos Jogos
+		Se preocupar com os direitos autorais do trabalho que estamos usando – está sendo respeitado o trabalho do criador desses assets.
+		A palavra chave é RESPEITO. Respeitar todas as pessoas que vão jogá-lo.
