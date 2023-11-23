@@ -1,0 +1,107 @@
+INTRODUÇÃO AO CURSO
+
+	Conhecer as ferramentas
+	Instalar, Configurar e Autenticar
+	Primeiros passos com Git E GitHub
+	Dicas e materiais de apoio
+
+O QUE É VERSIONAMENTO DE CÓDIGO
+
+	A cada alteração do código, gerar uma nova versão.
+
+	Sistemas de Controle de Versão
+		Controlam as versões de um arquivo ao longo do tempo.
+			- Registra o histórico de atualizações de um arquivo;
+			- Gerencia quais foram as alterações, a data, autor, etc;
+			- Organização, controle e segurança.
+
+	Tipos de Sistemas de Controle de Versão 
+		-VCS Centralizado (CVCS) – Ex.: CVS, Subversion. – Apenas um servidor que vai conter todos os arquivos do controle de versão. Desvantagem, quando ele fica fora do ar, não tem como acessar o Servidor.
+		-VCS Distribuído (DVCS) –  Ex.: Git, Mercurial. – Cada Banco de versão, é duplicado localmente nos computadores.
+			-Clona o repositório completo, o que inclui o histórico de versões.
+				
+-Cada clone é como um backup;
+				-Possibilita um fluxo de trabalho flexível;
+				-Possibilidade de trabalhar sem conexão à rede.
+
+O QUE É GIT
+
+	É um Sistema de Controle de Versão Distribuído.
+		-Gratuito e Open Source (Código Aberto);
+		-Ramificações (branching) e fusões (merging) eficientes;
+		-Leve e rápido.
+	
+Breve Histórico do Git
+	2002 -> O projeto do núcleo (kernel) do Linux, que é open source, começa a utilizar o BitKeeper, um DVCS proprietário;
+	2005 -> Após conflitos com a comunidade, o BitKeeper rescinde a licença gratuita. O que leva a Linus Torvalds, o criador do Linux, e a sua equipe a desenvolverem a sua própria ferramenta, o Git.
+Fluxo Básico do Git
+	- Se quisermos clonar o nosso repositório remoto, iremos utilizar o comando “git clone” – para clonar o repositório para a máquina local.
+	- Para gravar as alterações no git (criar uma nova versão) – se utiliza o código “git commit”.
+	- Para buscar as alterações do repositório remoto – utiliza-se o comando “git pull” – que por sua vez, busca e mescla no local as informações do rep. Remoto.
+	- Para enviar as alterações para o rep. Remoto – utiliza-se o “git push” – que por sua vez, “empurra” as alterações do rep. Local para o Remoto.
+O QUE É GITHUB
+
+	Plataforma de hospedagem de código para controle de versão com Git, e colaboração.
+		-Comunidade ativa;
+		-Utilizado mundialmente;
+		-Mascote “Octocat”.
+
+	Breve histórico do GitHub
+		2008 -> Desenvolvido por Chris Wanstrath, J. Heytt, Tom Preston Werner e Scott Chacon.
+		2018 -> Vítima de um dos maiores ataques de DDoS (ataque distribuído de negação de serviço; comprado pela Microsoft Corporation por US $ 7,5 bilhões.
+
+	Diferença entre Git e GitHub
+		Git atua no banco de versões. Já o GitHub seria o “Servidor”, local onde está hospedado o repositório remoto.
+
+
+
+
+
+
+
+CONFIGURANDO O GIT
+
+	Abrir o git
+	Digitar “git config” – ele permite vvisualizar e definir var de config do Git 
+	Ficam armazenadas em 3 locais 
+	--global – Que são as config do usuário que se encontra logado 
+	--system – Ver as config do sistema que abrange todos os usuários
+	--local - Referente ao repositório específico onde você se encontra.
+
+PRIMEIROS PASSOS COM GIT E GITHUB
+
+	Git init – utilizado para criar um repositório localmente
+	Git remote add origin + url – utilizar para conectar o repositório para hospedar remotamente
+	Git clone URL nome-do-diretorio-local (opcional)
+	
+	GITHUB
+		Repositórios – 
+			Publico  ou privado – 
+			Gitignore – definir arquivos que não deseja que sejam exibidos no github
+			Choose a license – adicionar uma licença
+			Create repository
+
+SALVANDO ALTERAÇÕES NO REPOSITORIO LOCAL
+
+	Utilizasse o comando git add para adicionar um arquivo para o github
+	Utilizasse o git commit -m”mensagem” para comentar o que foi feita nessa atualização
+	
+DESFAZENDO ALTERAÇÕES NO REP LOCAL
+
+	Utilizasse o comando Git restore <file> para desfazer uma alteração que foi feita no arquivo
+	Utilizasse o comango git commit –amend -m”mensagem” para alterar o commit da ultima atualização
+	Utilizasse o comando git reset (--soft --mixed --hard) para retornar a algum commit anterior
+
+TRABALHANDO COM BRANCH
+
+	Uma Branch (em tradução, “Ramo”), é uma ramificação do seu projeto.
+		- É um ponteiro móvel para um commit no histórico do repositório; - A cada novo commit gerado dentro da Branch ela passa a estar apontando para o novo commit.
+		- Quando você cria uma nova Branch a partir de outra existente, a nova se iniciar apontando para o mesmo commit da Branch que estava quando foi criada.
+
+Conflito de Merge
+	
+COMANDOS UTEIS NO DIA A DIA 
+git pull -> git fetch + git merge
+	git fetch = 
+	git clone URL --branch teste --single-branch – clonar para o repositório local apenas uma Branch
+	git stash – Vai desfazer uma alteração em alguma Branch que eu não queira que vá para uma outra Branch criada posteriormente.
